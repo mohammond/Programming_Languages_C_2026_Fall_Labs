@@ -1,7 +1,7 @@
 
 #include <stdio.h>
 
-int main(int argc, char *argv[]) {
+int main(int argc, char* argv[]) {
   // This is your first C program my friend
   printf("Hello from Berkay Samet! \n");
   printf("You passed %d argument(s).\n", argc - 1);
@@ -9,5 +9,4 @@ int main(int argc, char *argv[]) {
     printf("  arg[%d] = %s\n", i, argv[i]);
   }
   return 0;
-
 }
